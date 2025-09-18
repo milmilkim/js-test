@@ -1,0 +1,24 @@
+{
+  "name": "simple-validation-form",
+  "version": "1.0.0",
+  "description": "간단한 밸리데이션 폼과 vitest 테스트",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@vitest/coverage-c8": "^0.33.0",
+    "@vitest/ui": "^0.34.0",
+    "jsdom": "^22.0.0",
+    "vite": "^4.4.0",
+    "vitest": "^0.34.0"
+  }
+}
